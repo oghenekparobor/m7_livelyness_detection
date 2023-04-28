@@ -18,9 +18,9 @@ class M7FaceDetectorPainter extends CustomPainter {
   void paint(Canvas canvas, Size size) {
     final Paint paint = Paint()
       ..style = PaintingStyle.stroke
-      ..strokeWidth = 1.0
+      ..strokeWidth = 2.0
       ..color = M7LivelynessDetection.instance.contourDetectionColor ??
-          const Color(0xffab48e0);
+          const Color(0xFFD45710);
 
     void paintContour(FaceContourType type) {
       final faceContour = face.contours[type];
