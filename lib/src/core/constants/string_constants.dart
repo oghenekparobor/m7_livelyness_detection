@@ -4,7 +4,7 @@ class M7StringConstants {
 }
 
 class _M7LabelStrings {
-  final String livelyNessDetection = "Livelyness Detection";
+  final String livelyNessDetection = "Liveliness Detection";
   final String goodLighting = "Good Lighting";
   final String lookStraight = "Look Straight";
   final String goodLightingSubText =
@@ -12,7 +12,7 @@ class _M7LabelStrings {
   final String lookStraightSubText =
       "Hold your phone at eye level and look straight to the camera";
   final String infoSubText =
-      "We use this selfie to compare with the mandatory(s) photos on the next step";
+      "We use this selfie to compare with the mandatory photos on the next step";
 }
 
 class _M7ButtonStrings {
